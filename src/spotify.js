@@ -23,7 +23,7 @@ return window.location.hash
     let parts = item.split('=');
     
     initial[parts[0]] = 
-    decodeURIComponent (parts [1]);
+    decodeURIComponent(parts[1]);
 
     return initial;
      
